@@ -5,7 +5,7 @@ int main(){
     int sum = 0;
     int average = 0;
     int i=0;
-    printf("ÇĞ»ıµéÀÇ ¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä : \n");
+    printf("í•™ìƒë“¤ì˜ ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš” : \n");
     for(;i<students;i++){
         scanf("%d", &grade[i]);
         sum+=grade[i];
@@ -13,8 +13,8 @@ int main(){
     }
     average = sum / students;
 
-    printf("¼ºÀû Æò±Õ: %d \n", average);
-    //printf("¼ºÀû Æò±Õ : %d \n", sum/students);
+    printf("ì„±ì  í‰ê· : %d \n", average);
+    printf("ì„±ì  í‰ê·  : %d \n", sum/students);
 
     return 0 ;
 }

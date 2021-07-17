@@ -14,8 +14,8 @@ int main(){
 		}
 		if(a[i] == b[i]){
 			count++;
-		if(count == 3)
-			printf("같습니다.");
+			if(count == 3)
+				printf("같습니다.");
 		}
 	}
 	return 0; 
