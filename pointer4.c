@@ -7,7 +7,7 @@ int main(){
     p = grade;
 
     for (int i = 0; i<5;i++){
-        sum+=*p++;  
+        sum+=*p++;   //345,7,3,45,78 의 합
     }
 
     printf("정수의합:%d\n", sum);
