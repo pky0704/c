@@ -9,7 +9,7 @@ int main(){
 	printf("\ncase1 ptr++\n");
 	ptr++;	
 	printf("&i=%d i=%d\n",&i,i);
-	printf("ptr=%d *ptr=%d\n",ptr,*ptr);
+	printf("ptr=%d *ptr=%d\n",ptr,*ptr);// *ptr=??
 	
 	
 	ptr=&i;
